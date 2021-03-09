@@ -18,18 +18,16 @@
         "prettier"
     ],
     "rules": {
-      "no-use-before-define": "off",
-      "@typescript-eslint/no-use-before-define": [
-	      "error"
-      ],
+      "prettier/prettier": "error",
+      "class-methods-use-this": "off",
+      "camelcase": "off",
       "import/extensions": [
-        "error",
-        "ignorePackages",
-        {
-          "ts": "never"
-        }
-      ],
-      "prettier/prettier": "error"
+          "error",
+          "ignorePackages",
+          {
+              "ts": "never"
+          }
+      ]
     },
     "settings": {
       "import/resolver": {
